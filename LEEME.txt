@@ -1,0 +1,76 @@
+CALCULADORA CIENTÍFICA
+
+CÓMO ABRIRLA
+1 Extrae este ZIP en una carpeta distinta a la de tu proyecto anterior
+2 Abre Android Studio y elige Open
+3 Selecciona la carpeta zarate que contiene settings.gradle.kts
+4 Espera a que termine la sincronización de Gradle
+5 Selecciona tu teléfono o emulador y presiona Run
+
+Se conservaron las versiones de Gradle y Android de tu proyecto
+Usa la misma instalación de Android Studio con la que abrías la versión anterior
+Si aparece un error comparte el texto completo del primer error
+
+QUÉ TIENE
+Suma resta multiplicación y división
+Paréntesis y orden de operaciones
+Seno coseno y tangente
+Selector de grados y radianes
+Potencias raíz cuadrada y pi
+Tu cálculo original de porcentaje más monto base
+Tu archivo de sonido clic y un interruptor para silenciarlo
+Modo oscuro guardado entre sesiones
+Historial de las últimas 20 operaciones guardado entre sesiones
+Pantalla desplazable para acceder a los controles en pantallas pequeñas
+
+EJEMPLOS PARA LA CLASE
+2 + 3 × 4 da 14
+(2 + 3) × 4 da 20
+sen(30) en grados da aproximadamente 0 punto 5
+cos(60) en grados da aproximadamente 0 punto 5
+tan(45) en grados da aproximadamente 1
+sen(pi ÷ 2) en radianes da 1
+1000 con 10 por ciento en la sección de propinas da 100 extra y 1100 de total
+Dividir entre cero muestra un mensaje sin cerrar la app
+
+CÓMO FUNCIONA
+MainActivity.kt conecta los botones con las acciones y conserva el sonido
+ExpressionCalculator.java resuelve las operaciones matemáticas
+activity_main.xml organiza la pantalla
+El motor matemático está en Java y la pantalla sigue en Kotlin
+Android permite usar ambos lenguajes en el mismo proyecto
+El cálculo respeta primero los paréntesis después las potencias después la multiplicación y división y al final la suma y resta
+Las funciones trigonométricas convierten los grados a radianes cuando el interruptor está activado
+El historial y las opciones se guardan con SharedPreferences
+
+CAMBIOS DE ESTA VERSIÓN
+La pantalla científica muestra la operación que armas con los botones
+Los dos campos numéricos para propinas siguen en su propia sección
+El fondo parallax responde a la inclinación del teléfono y al desplazamiento de la pantalla
+
+CÓMO JUGAR DOOM
+Debajo de Propinas e impuestos pulsa Jugar DOOM y luego Iniciar partida
+Se abre el primer mapa de DOOM shareware 1 punto 9 en horizontal
+Avanzar y Retroceder mueven al personaje
+Las flechas giran la vista y Disparar usa el arma
+Usar abre puertas y activa interruptores
+Menú abre las opciones del juego y Aceptar confirma la selección
+Volver a la calculadora cierra la partida
+Los archivos del juego y del emulador vienen en la app
+Esta versión inicia una partida nueva cada vez que entras
+
+VALIDACIÓN
+El motor de la calculadora pasó 38 pruebas con Java
+Se verificaron las referencias y el XML de la pantalla
+El primer mapa del juego se abrió en Chromium con los archivos locales
+Falta ejecutar el proyecto Android completo en tu dispositivo
+
+COMPATIBILIDAD DE DOOM
+El menú aparece antes de que se cargue el emulador
+Si el WebView no dispone de WebAssembly se usa el motor JavaScript incluido
+La primera carga en un emulador de teléfono puede tardar varios segundos
+
+ARRANQUE DEL JUEGO
+Pulsa Iniciar partida y espera a que se abra el mapa
+Para la primera prueba en API 24 deja desmarcada la casilla de sonido del juego
+Si el mapa tarda más de 90 segundos aparece un mensaje de diagnóstico
