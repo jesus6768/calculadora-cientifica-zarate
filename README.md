@@ -1,31 +1,29 @@
 # Calculadora Científica Zárate
 
-Proyecto de Android Studio desarrollado con **Kotlin y Java**.
+Proyecto de calculadora científica para Android Studio, desarrollado con Kotlin y Java.
 
-## Características
-- Operaciones básicas, paréntesis y jerarquía de operaciones.
-- Seno, coseno, tangente, grados y radianes.
-- Potencias, raíces, porcentajes y π.
-- Gráficas matemáticas e historial.
-- Herramienta de propinas e impuestos.
-- Modo claro/oscuro, sonido de botones y fondo parallax.
-- Menú organizado para las herramientas.
+## Estado del repositorio
 
-**Nota:** La versión actual no incluye DOOM.
+El repositorio público ya está inicializado. **El código fuente completo aún está pendiente de subir.**
 
-## Cómo ejecutar
-1. Descarga el código del repositorio.
-2. Abre Android Studio y selecciona **Open**.
-3. Selecciona la carpeta que contiene `settings.gradle.kts`.
-4. Sincroniza Gradle, selecciona un emulador o dispositivo y pulsa **Run**.
+La copia recuperada del proyecto se llama `zarate_menu.zip`. Se puede extraer y subir a la raíz de este repositorio: las carpetas `app/` y `gradle/`, y archivos como `settings.gradle.kts` y `gradlew` deben quedar directamente en la raíz (sin una carpeta adicional `zarate/`).
 
-Configuración del proyecto: Android API mínima 24, compilación configurada para API 37.
+## Funcionalidades de la copia recuperada
 
-## Archivos principales
-- `app/src/main/java/com/example/zarate/MainActivity.kt` — interfaz y funciones.
-- `app/src/main/java/com/example/zarate/ExpressionCalculator.java` — motor de cálculo.
-- `app/src/main/java/com/example/zarate/GraphActivity.kt` — pantalla de gráficas.
-- `app/src/main/assets/graph/` — gráficas HTML/JavaScript.
-- `app/src/main/res/` — diseños, iconos, temas y sonido.
+- Operaciones científicas y jerarquía de operaciones.
+- Pantalla de gráficas matemáticas.
+- Modo claro y oscuro.
+- Sonido de botones.
+- Menú de herramientas.
+- Proyecto de Android Studio con pruebas y recursos.
 
-> El proyecto todavía requiere una compilación completa en Android Studio para confirmar su ejecución en el dispositivo.
+La opción de DOOM fue retirada de la versión recuperada.
+
+## Cómo abrirlo después de subir el código
+
+1. Clonar o descargar el repositorio.
+2. Abrir en Android Studio la carpeta que contiene `settings.gradle.kts`.
+3. Sincronizar Gradle.
+4. Ejecutar la aplicación en un dispositivo o emulador.
+
+> Pendiente: subir los archivos del proyecto y comprobar una compilación completa en Android Studio.
